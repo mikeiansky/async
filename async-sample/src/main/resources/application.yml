@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: async-sample
+io:
+  github:
+    mikeiansky:
+      async:
+        core:
+          core: 8
+          max: 16
+          queue-capacity: 1024
+          keey-alive: 60
+          prefix: sample-async-core-
+        assist:
+          core: 10
+          max: 20
+          queue-capacity: 1024
+          keey-alive: 60
+          prefix: sample-async-assist-
+
