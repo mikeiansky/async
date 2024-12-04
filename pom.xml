@@ -5,15 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.mikeiansky</groupId>
-    <artifactId>async</artifactId>
-    <version>1.0.1</version>
+    <artifactId>mikeiansky-async</artifactId>
+    <version>1.0.2</version>
 
     <packaging>pom</packaging>
     <modules>
-        <module>async-context</module>
-        <module>async-autoconfigure</module>
-        <module>async-starter</module>
-        <module>async-sample</module>
+        <module>mikeiansky-async-context</module>
+        <module>mikeiansky-async-autoconfigure</module>
+        <module>mikeiansky-async-starter</module>
+        <module>mikeiansky-async-sample</module>
     </modules>
 
     <properties>
@@ -54,18 +54,18 @@
             <!-- 管理子模块版本 -->
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>async-context</artifactId>
+                <artifactId>mikeiansky-async-context</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>async-autoconfigure</artifactId>
+                <artifactId>mikeiansky-async-autoconfigure</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.mikeiansky</groupId>
-                <artifactId>async-starter</artifactId>
-                <version>0.0.1</version>
+                <artifactId>mikeiansky-async-starter</artifactId>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>

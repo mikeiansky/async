@@ -5,17 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mikeiansky</groupId>
-        <artifactId>async</artifactId>
-        <version>1.0.1</version>
+        <artifactId>mikeiansky-async</artifactId>
+        <version>1.0.2</version>
     </parent>
 
-    <artifactId>async-context</artifactId>
+    <artifactId>mikeiansky-async-autoconfigure</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <groupId>io.github.mikeiansky</groupId>
+            <artifactId>mikeiansky-async-context</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

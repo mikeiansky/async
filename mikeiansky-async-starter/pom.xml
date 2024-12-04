@@ -5,20 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mikeiansky</groupId>
-        <artifactId>async</artifactId>
-        <version>1.0.1</version>
+        <artifactId>mikeiansky-async</artifactId>
+        <version>1.0.2</version>
     </parent>
 
-    <artifactId>async-starter</artifactId>
+    <artifactId>mikeiansky-async-starter</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>io.github.mikeiansky</groupId>
-            <artifactId>async-context</artifactId>
+            <artifactId>mikeiansky-async-context</artifactId>
         </dependency>
         <dependency>
             <groupId>io.github.mikeiansky</groupId>
-            <artifactId>async-autoconfigure</artifactId>
+            <artifactId>mikeiansky-async-autoconfigure</artifactId>
         </dependency>
     </dependencies>
 

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mikeiansky</groupId>
-        <artifactId>async</artifactId>
-        <version>1.0.1</version>
+        <artifactId>mikeiansky-async</artifactId>
+        <version>1.0.2</version>
     </parent>
 
-    <artifactId>async-sample</artifactId>
+    <artifactId>mikeiansky-async-sample</artifactId>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
@@ -29,7 +29,7 @@
 
         <dependency>
             <groupId>io.github.mikeiansky</groupId>
-            <artifactId>async-starter</artifactId>
+            <artifactId>mikeiansky-async-starter</artifactId>
         </dependency>
     </dependencies>
 
