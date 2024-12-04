@@ -6,7 +6,7 @@
 
     <groupId>io.github.mikeiansky</groupId>
     <artifactId>mikeiansky-async</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <packaging>pom</packaging>
     <modules>
@@ -27,8 +27,8 @@
         <fastjson2.version>2.0.52</fastjson2.version>
     </properties>
 
-    <description>async</description>
-    <url>https://github.com/mikeiansky/async</url>
+    <description>mikeiansky-async</description>
+    <url>https://github.com/mikeiansky/mikeiansky-async</url>
     <developers>
         <developer>
             <id>mikeiansky</id>
@@ -44,9 +44,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/mikeiansky/async</url>
-        <connection>scm:git:git://github.com/mikeiansky/async.git</connection>
-        <developerConnection>scm:git:ssh://github.com/mikeiansky/async.git</developerConnection>
+        <url>https://github.com/mikeiansky/mikeiansky-async</url>
+        <connection>scm:git:git://github.com/mikeiansky/mikeiansky-async.git</connection>
+        <developerConnection>scm:git:ssh://github.com/mikeiansky/mikeiansky-async.git</developerConnection>
     </scm>
 
     <dependencyManagement>
